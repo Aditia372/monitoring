@@ -1,0 +1,189 @@
+/* AllDivision.css */
+
+.body{
+}
+.mytask-container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #f0f4f8, #ffffff);
+  min-height: 100vh;
+}
+
+.fancy-bg {
+  background: linear-gradient(135deg, #eef2f7, #ffffff);
+}
+
+.menu-bar {
+  border-radius: 12px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.menu-item {
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 500;
+}
+
+.menu-item:hover {
+  background-color: #dbeafe;
+}
+
+.mytask-main {
+  margin-top: 2rem;
+}
+/* Pie Chart Section */
+.aircraft-chart-card {
+  background-color: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.06);
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  align-items: center;
+}
+
+.chart-header {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #041301db;
+  width: 100%;
+}
+
+.chart-wrapper {
+  width: 280px;
+  min-width: 260px;
+}
+
+/* Task Summary */
+.task-summary {
+  flex: 1;
+  min-width: 200px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.875rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed #e5e7eb;
+}
+
+.summary-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.color-bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+/* Progress Bar */
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.bg-gray-200 {
+  background-color: #e5e7eb;
+}
+
+.bg-green-500 {
+  background-color: #10b981;
+}
+
+.rounded-full {
+  border-radius: 999px;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.text-gray-700 {
+  color: #374151;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+.status-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  display: inline-block;
+  text-align: center;
+  min-width: 70px;
+  text-transform: capitalize;
+}
+
+.status-badge.green {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-badge.orange {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-badge.red {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.status-badge.gray {
+  background-color: #e5e7eb;
+  color: #374151;
+}
+
+.division-title {
+  color: #1f2937;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 0.25rem;
+}
+
+.warning-text {
+  background-color: #fef9c3;
+  color: #92400e;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid #facc15;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.task-grid {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.task-card {
+  transition: transform 0.2s ease;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+}
+
+.task-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+}

@@ -1,0 +1,55 @@
+/* Add.css */
+
+.tambah-pesawat-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f3f6f9;
+}
+
+.tambah-pesawat-form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 480px;
+}
+
+.tambah-pesawat-form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #1976d2;
+}
+
+.tambah-pesawat-form label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.tambah-pesawat-form input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.tambah-pesawat-form button {
+  margin-top: 1.5rem;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tambah-pesawat-form button:hover {
+  background-color: #125ea8;
+}
